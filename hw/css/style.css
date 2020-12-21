@@ -29,4 +29,24 @@ p {
     position: absolute;
     bottom: 0;
     font-size: 14px;
+    line-height: 1.5;
+}
+.video {
+    width: 445px;
+    margin-left: 735px;
+    margin-top: 95px;
+    position: absolute;
+}
+.download-icon {
+    display: flex;
+    width: 135px;
+    align-items: center;
+    justify-content:space-between;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 360px;
+}
+a:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
 }
