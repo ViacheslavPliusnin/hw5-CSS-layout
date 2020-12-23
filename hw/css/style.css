@@ -32,8 +32,8 @@ p {
     line-height: 1.5;
 }
 .video {
-    width: 445px;
-    margin-left: 735px;
+    width: 533px;
+    margin-left: 691px;
     margin-top: 95px;
     position: absolute;
 }
@@ -97,6 +97,11 @@ a:hover {
 }
 .long {
     grid-column: span 2;
+}
+select {
+    background: url(../img/arrow.png) no-repeat right rgb(255, 255, 255);
+    -webkit-appearance: none;
+    background-position-x: 500px;
 }
 .sumbit {
     border-radius: 6px;
