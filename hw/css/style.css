@@ -2,16 +2,20 @@
     box-sizing: border-box;
 }
 body {
+    min-width: 1440px;
+    width: 100%;
     margin: 0;
-    width: 1440px;
-    margin-left:auto;
-    margin-right: auto;
     font-family: 'Lato', sans-serif;
 }
 .download {
+    display: flex;
+    justify-content: center;
     height: 500px;
     background-color: #ED4C5C;
     color: white;
+}
+.download-container {
+    width: 1440px;
 }
 .download-text {
     position: absolute;
@@ -59,7 +63,12 @@ a:hover {
     color: #ED4C5C;
 }
 .contact {
+    display: flex;
+    justify-content: center;
     height: 545px;
+}
+.contact-container {
+    width: 1440px;
 }
 .contact-text {
     position: absolute;
@@ -119,8 +128,13 @@ select {
     transition: ease-in-out 0.4s;
 }
 footer {
+    display: flex;
+    justify-content: center;
     height: 435px;
     background-color: #FAFAFA;
+}
+.footer-container {
+    width: 1440px;
 }
 .info {
     position: absolute;
@@ -142,7 +156,7 @@ span {
     font-family: inherit;
     font-size: 12px;
 }
-.footer-div {
+.footer-item {
     margin-top: 5px;
 }
 .links {
